@@ -1,3 +1,3 @@
-# https://github.com/ymussi/real_time.github.io
+# https://ymussi.github.io/real_time.github.io/
 
 

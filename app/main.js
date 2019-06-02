@@ -45,6 +45,5 @@ function GetFormattedHour() {
         var segundo = `0${segundo}`
     }
     var horaCerta = `${hora}:${minuto}:${segundo}`
-    console.log(horaCerta)
     return horaCerta
 }

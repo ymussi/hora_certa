@@ -8,21 +8,21 @@ function carregar() {
     if (hora >= "00:00:00" && hora < "12:00:00"){
         // BOM DIA
         if (hora <= "05:00:00"){
-            img.src = "../img/midnight.png"
+            img.src = "./app/img/midnight.png"
             document.body.style.background ='#515154'
         } else {
-            img.src = "../img/morning.png"
+            img.src = "./app/img/morning.png"
             document.body.style.background ='#e2cd9f'
         }
         saudacao.innerHTML = "Bom Dia!"
     } else if (hora > "12:00:00" && hora <= "18:00:00"){
         // BOA TARDE
-        img.src = "../img/evening.png"
+        img.src = "./app/img/evening.png"
         document.body.style.background ='#b9846f'
         saudacao.innerHTML = "Boa Tarde!"
     } else {
         // BOA NOITE
-        img.src = "../img/night.png"
+        img.src = "./app/img/night.png"
         document.body.style.background ='#515154'
         saudacao.innerHTML = "Bom Noite!"
     }
